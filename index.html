@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Hub</title>
+<!--Tailwind and DaisyUI-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.5/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+<!--Lato Google Font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<style>
+    .font-lato{
+        font-family: 'Lato', sans-serif;
+    }
+</style>
 </head>
-<body>
+<body class="font-lato">
+    <header>
+       
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class=" navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                          <li><a>Item 1</a></li>
+                          <li tabindex="0"> 
+                          </li>
+                          <li><a>Item 3</a></li>
+                      </li>
+                      <li><a>Item 2</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="navbar-center">
+                  <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                </div>
+                <div class="navbar-end">
+                    <div class="form-control">
+                        <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                      </div>
+                    <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  </button>
+                  
+                </div>
+              </div>
+        </nav>
+       
+    </header>
+    <main></main>
+    <footer></footer>
     
 </body>
 </html>
